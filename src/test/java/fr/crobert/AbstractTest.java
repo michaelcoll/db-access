@@ -13,7 +13,7 @@ import java.io.InputStream;
 public class AbstractTest {
 
     private DataSource dataSource;
-    private SqlSessionFactory sqlSessionFactory;
+    SqlSessionFactory sqlSessionFactory;
 
     AbstractTest() {
         HikariConfig config = new HikariConfig("hikari.properties");
