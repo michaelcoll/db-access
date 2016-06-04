@@ -16,7 +16,7 @@ public class AbstractTest {
     SqlSessionFactory sqlSessionFactory;
 
     AbstractTest() {
-        HikariConfig config = new HikariConfig("hikari.properties");
+        HikariConfig config = new HikariConfig("/hikari.properties");
         dataSource = new HikariDataSource(config);
 
 
